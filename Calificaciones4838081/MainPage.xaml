@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calificaciones4838081.MainPage">
+    <ScrollView>
+        <VerticalStackLayout
+         Padding="30,0"
+         Spacing="25">
+        <Label Text="CALIFICACIONES"
+           VerticalOptions="Center"
+           HorizontalOptions="Center"/>
+        <Image
+          Source="promedio.png"
+           HeightRequest="100"
+           Aspect="AspectFit"/>
+        <Entry x:Name="entry1" Placeholder="Digite la primera nota"/>
+        <Entry x:Name="entry2" Placeholder="Digite la segunda nota"/>
+        <Entry x:Name="entry3" Placeholder="Digite la tercera nota"/>
+        <Entry x:Name="entry4" Placeholder="Digite la cuarta nota"/>
+        <Entry x:Name="entry5" Placeholder="Digite la quinta nota"/>
+        <Button Text="Calcular Promedio" Clicked="Button_Clicked_1"/>
+        <Entry x:Name="entry6" Placeholder="Promedio: "/>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
